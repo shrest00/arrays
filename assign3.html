@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Eternal Characters List</title>
+    <style>
+        .skill-button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Eternal Characters</h1>
+    <div class="eternalsList"></div>
+    <div class="attribute">
+        <label for="skillInput">Enter a skill to find the Eternal: </label>
+        <input type="text" id="skillInput" placeholder="Enter a skill">
+        <button onclick="findBySkill()">Find Character</button>
+        <p class="results"></p>
+        <img class="selectedPic" alt="Character" style="display:none; max-width:200px;" />
+    </div>
+    <div class="skillsButtons"></div> 
+    
+    <script src="scripts.js"></script>    
+</body>
+</html>
