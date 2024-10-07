@@ -3,31 +3,31 @@ const eternalsData = [
         name: "Ikaris",
         age: 5000,
         skills: ["laser", "strength", "fight"],
-        pic: "img/ika.jpeg"
+        pic: "ika.jpeg"
     },
     {
         name: "Sersi",
         age: 7000,
         skills: ["matter manipulation", "immortality", "healing"],
-        pic: "img/sersi.jpeg"
+        pic: "sersi.jpeg"
     },
     {
         name: "Huma",
         age: 6000,
         skills: ["sword fighting", "weapons mastery", "super agility"],
-        pic: "img/huma.jpeg"
+        pic: "huma.jpeg"
     },
     {
         name: "King",
         age: 8000,
         skills: ["energy projection", "sword", "hand-to-hand combat"],
-        pic: "img/king.jpeg"
+        pic: "king.jpeg"
     },
     {
         name: "Pepi",
         age: 5000,
         skills: ["super speed", "invention", "mortal"],
-        pic: "img/pepi.jpeg"
+        pic: "pepi.jpeg"
     }
 ];
 
