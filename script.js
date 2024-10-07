@@ -52,7 +52,7 @@ function findBySkill() {
     // Clear previous search result
     searchResult.textContent = '';
     characterPic.src = ''; 
-    characterPic.style.display = "none"; 
+    characterPic.style.display = "none";
 
     // Filter Eternals based on the input skill
     const foundEternals = eternalsData.filter(eternal => eternal.skills.includes(inputSkill));
